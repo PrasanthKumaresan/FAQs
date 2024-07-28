@@ -1,0 +1,38 @@
+.main-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  padding: 8px;
+}
+@media (min-width: 768px) {
+  .card-container {
+    width: 50%;
+    min-height: 80vh;
+  }
+}
+.faq-header {
+  color: #cb8805;
+  font-size: 35px;
+  font-weight: bolder;
+}
+@media (min-width: 768px) {
+  .faq-header {
+    font-size: 45px;
+  }
+}
+.unordered-list-container {
+  margin-left: -32px;
+}
